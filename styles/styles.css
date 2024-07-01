@@ -2,18 +2,53 @@
 
 
 :root {
-    --fonte-principal: 'Roboto'
-    --preto-q1: #111111
+    --fonte-principal: 'Roboto';
+    --preto-q1: #111111;
+    --branco: #FFFFFF;
 }
 body {
     font-family: var(--fonte-principal);
     font-size: 16px;
+ 
 }
 .cabecalho {
+    width: 100vw;
+    border-bottom: 1px solid var(--preto-q1);
+ 
+  
+ 
+    
+    
+}
+.cabecalho-items {
     display: flex;
     justify-content: space-between;
+    margin: 1em 8em;
+    align-content: center;
+    
+     
 }
-
+.nav-menu a {
+    color: var(--preto-q1);
+}
 .nav-menu ul {
     display: flex;
+    gap: 2em;
+    align-items: center;
+    color: var(--preto-q1);
 }
+
+.button-log, .button-reg {
+     
+    padding: 0.5em 1.2em;
+}
+.button-log {
+    border: 1px solid var(--preto-q1);
+    background-color: transparent;
+}
+.button-reg {
+    border: 1px solid var(--preto-q1);
+    background-color: var(--preto-q1);
+    color: var(--branco);
+}
+
