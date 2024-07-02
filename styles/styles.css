@@ -52,3 +52,6 @@ body {
     color: var(--branco);
 }
 
+.sec-container{
+    display: flex;
+}
