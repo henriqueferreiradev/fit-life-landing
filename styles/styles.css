@@ -4,6 +4,7 @@
 :root {
     --fonte-principal: 'Roboto';
     --preto-q1: #111111;
+    --preto-q2: #262626;
     --branco: #FFFFFF;
 }
 body {
@@ -117,4 +118,37 @@ body {
 .lista-item-texto {
     text-align: justify;
     line-height: 1.2em;
+}
+.faq-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    
+}
+.section-titulo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+.faq {
+    width: 50%;
+}
+
+.faq-titulo {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1em;
+    border-bottom: 2px solid var(--preto-q2);
+    
+}
+
+.faq-texto {
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 1em;
 }
