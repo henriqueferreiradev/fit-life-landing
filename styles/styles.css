@@ -1,8 +1,9 @@
 @import url(../styles/reset/reset.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 :root {
     --fonte-principal: 'Roboto';
+    --font-span: 'Courgette';
     --preto-q1: #111111;
     --preto-q2: #262626;
     --branco: #FFFFFF;
@@ -87,6 +88,7 @@ body {
     align-items: center;
     gap: 5em;
     margin:  8em;
+    
 }
 .beneficios-titulo {
     font-size: 40px;
@@ -105,8 +107,21 @@ body {
 .lista-item {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     align-items: center;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    width: auto;
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+    flex-grow: 1;
+    padding: 1em;
+    height: 250px;
+    line-height: 1.5em;
 }
 .lista-item img {
    width: 40px; 
@@ -119,6 +134,57 @@ body {
     text-align: justify;
     line-height: 1.2em;
 }
+
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 8em;
+}
+span {
+    font-size: 50px;
+    font-family: var(--font-span);
+}
+.depoimentos-titulo {
+    font-size: 40px;
+    font-weight: 700;
+}
+.depoimentos-lista {
+    display: flex;
+    
+ 
+}
+.lista-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    gap: 1em;
+    background-color: var(--branco);
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    max-width: 355px;
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+    flex-grow: 1;
+    padding: 1em;
+    height: 400px;
+    line-height: 1.5em;
+}
+
+.lista-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    
+}
+
 .faq-section {
     height: 100vh;
     display: flex;

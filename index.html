@@ -17,10 +17,10 @@
             <div class="nav-bar">
                 <nav class="nav-menu">
                     <ul>
-                        <li class="nav-link"><a href="">Home</a></li>
-                        <li class="nav-link"><a href="">Sobre</a></li>
-                        <li class="nav-link"><a href="">Serviços</a></li>
-                        <li class="nav-link"><a href="">Contatos</a></li>
+                        <li class="nav-link"><a id="ids id_home" href="#">Home</a></li>
+                        <li class="nav-link"><a id="ids id_beneficios" href="#">Sobre</a></li>
+                        <li class="nav-link"><a href="#">Serviços</a></li>
+                        <li class="nav-link"><a href="#">Contatos</a></li>
                         <div class="buttons">
                             <button class="button-log">Login</button>
                             <button class="button-reg">Registrar</button>
@@ -32,7 +32,7 @@
         </div>
     </header>
     <main>
-        <section class="sec-container"> 
+        <section id="id_sec_home" class="sec-container"> 
             <div class="container">
                 <h2 class="container-titulo">Diga Adeus à Vida Sedentária e Ganhe Mais Saúde e Energia!</h2>
                 <p class="container-paragrafo">Descubra como nossos programas de treino personalizados e suporte nutricional completo podem ajudar você a se livrar do sedentarismo e a viver uma vida mais ativa e saudável.</p>
@@ -40,7 +40,7 @@
             </div>
             <img class='sec-imagem 'src="./assets/imagem-1.jpg" alt="vida saudável">
         </section>
-        <section>
+        <section id="id_sec_beneficios">
             <div class="container-beneficios">
                 <h2 class="beneficios-titulo">Por que a FitLife é a melhor escolha para sua jornada de saúde?</h2>
                 <ul class="lista-beneficios">
@@ -63,12 +63,32 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <div>
-                <div>
-                    
-                </div>
-            </div>
+        <section class="depoimentos">
+            <h2 class="depoimentos-titulo">O que nossos clientes falam sobre nós?</h2>
+            <ul class="depoimentos-lista">
+                <li class="lista-card">
+                    <img src="./assets/rosto1.jpg" alt="foto perfil do usuario">
+                    <p class="card-comentario"><span>"</span>Com o FitLife, consegui perder 10kg em três meses e nunca me senti tão saudável! Os treinos personalizados e o suporte nutricional foram essenciais para o meu sucesso.<span>"</span></p>
+                    <h4 class="card-user">João Pereira</h4>
+                    <p class="card-estado">Rio de Janeiro</p>
+                </li>
+                <li class="lista-card">
+                    <img src="./assets/rosto1.jpg" alt="foto perfil do usuario">
+                    <p class="card-comentario"><span>"</span>Com o FitLife, consegui perder 10kg em três meses e nunca me senti tão saudável! Os treinos personalizados e o suporte nutricional foram essenciais para o meu sucesso.<span>"</span></p>
+                    <h4 class="card-user">João Pereira</h4>
+                    <p class="card-estado">Rio de Janeiro</p>
+                </li>
+                <li class="lista-card">
+                    <img src="./assets/rosto1.jpg" alt="foto perfil do usuario">
+                    <span>"</span>
+                    <p class="card-comentario">Com o FitLife, consegui perder 10kg em três meses e nunca me senti tão saudável! Os treinos personalizados e o suporte nutricional foram essenciais para o meu sucesso.</p>
+                    <span>"</span>
+                    <h4 class="card-user">João Pereira</h4>
+                    <p class="card-estado">Rio de Janeiro</p>
+                </li>
+                
+            </ul>
+
         </section>
         <section class="faq-section">
             <h2 class="section-titulo">Perguntas frequentes(FAQs)</h2>
@@ -98,5 +118,6 @@
             </details>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
