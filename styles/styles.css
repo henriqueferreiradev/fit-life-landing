@@ -69,7 +69,7 @@ body {
 
 }
 .container-titulo {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 700;
 }
 .container-botao{
@@ -77,11 +77,25 @@ body {
     padding: 0.8em;
     text-align: center;
 }
+.container-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.sec-container-2 {
+    height: 450px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em 8em;
+    gap: 5em;
+    margin-top: 72px;
+}
 .sec-imagem {
     width: 50%;
     height: auto;
     border-radius: 30px;
     object-fit: cover;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
 .container-beneficios {
     display: flex;
@@ -102,27 +116,24 @@ body {
     display: flex;
     align-items: flex-start;
     text-align: center;
-    gap: 4em;
+    gap: 1em;
 
 }
 .lista-item {
     display: flex;
     flex-direction: column;
-    gap: 1em;
     align-items: center;
-    background-color: var(--branco);
+    gap: 2em;
+    padding: 2em;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    height: 300px;
     border-radius: 10px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
-    overflow: hidden;
-    width: auto;
     color: var(--preto);
     font-size: 16px;
     font-weight: 400;
-    margin: 10px;
-    flex-grow: 1;
-    padding: 1em;
-    height: 250px;
     line-height: 1.5em;
+    
+ 
 }
 .lista-item img {
    width: 40px; 
@@ -144,8 +155,8 @@ body {
     margin: 1em 8em;
 }
 span {
-    font-size: 50px;
-    font-family: var(--font-span);
+    font-size: 16px;
+    font-weight: 700;
 }
 .depoimentos-titulo {
     font-size: 40px;
@@ -165,7 +176,7 @@ span {
     gap: 1em;
     background-color: var(--branco);
     border-radius: 10px;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     max-width: 355px;
     color: var(--preto);
