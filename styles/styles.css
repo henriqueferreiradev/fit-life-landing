@@ -8,6 +8,9 @@
     --preto-q2: #262626;
     --branco: #FFFFFF;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -152,7 +155,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1em 8em;
+    margin: 5em 8em;
 }
 span {
     font-size: 16px;
@@ -161,6 +164,7 @@ span {
 .depoimentos-titulo {
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 45px;
 }
 .depoimentos-lista {
     display: flex;
@@ -233,4 +237,14 @@ span {
 
 .faq-titulo:hover {
     cursor: pointer;
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes-sociais {
+    align-items: center;
+    width: 100%;
+    border-top: var(--preto-q1) solid 1px;
 }
